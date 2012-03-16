@@ -1,5 +1,4 @@
-require "cameraplus/version"
+require "httparty"
 
-module Cameraplus
-  # Your code goes here...
-end
+require "cameraplus/request"
+require "cameraplus/version"

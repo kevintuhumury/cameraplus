@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://camerapl.us/user/mostlylisa:pages?
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 16 Mar 2012 23:03:17 GMT
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache/2.2.21 (Amazon)
+      Set-Cookie:
+      - PHPSESSID=qsnqtmblp2ks0pr5d4grlelkm5; expires=Wed, 12-Sep-2012 23:03:18 GMT;
+        path=/; domain=.campl.us
+      - PHPSESSID=qsnqtmblp2ks0pr5d4grlelkm5; expires=Wed, 12-Sep-2012 23:03:18 GMT;
+        path=/; domain=.campl.us
+      X-Powered-By:
+      - PHP/5.3.10
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '{"user":{"userid":6978642,"username":"mostlylisa","realname":"Lisa
+        Bettany","avatar":"http:\/\/a0.twimg.com\/profile_images\/1767370289\/284161_10150711631895637_674215636_19658534_6246798_n_normal.jpeg","pages":120,"pictures":874},"pages":[{"url":"http:\/\/campl.us\/iao4","tweettext":"Carnival
+        in Venice, a travel photographer''s dream shoot!","tweetid":"180064216093437954","timestamp":"2012-03-14
+        22:53:49","views":1895,"comments":1,"location":"45.43383498680353 12.34226474539595","locationname":"Venice,
+        Venice","images":[{"800px":"http:\/\/pics.campl.us\/f\/0\/0b497f01791c851db1a17f81e0621a5c.jpg","120px":"http:\/\/pics.campl.us\/t\/0\/0b497f01791c851db1a17f81e0621a5c.jpg","480px":"http:\/\/pics.campl.us\/iphone\/0\/0b497f01791c851db1a17f81e0621a5c.jpg","fullwidth":800,"fullheight":590,"location":"45.43383498680353
+        12.34226474539595"},{"800px":"http:\/\/pics.campl.us\/f\/a\/a2fb3bfe849f16f5420f4ca8348f33a0.jpg","120px":"http:\/\/pics.campl.us\/t\/a\/a2fb3bfe849f16f5420f4ca8348f33a0.jpg","480px":"http:\/\/pics.campl.us\/iphone\/a\/a2fb3bfe849f16f5420f4ca8348f33a0.jpg","fullwidth":800,"fullheight":601,"location":"45.43305496689438
+        12.33965336346285"},{"800px":"http:\/\/pics.campl.us\/f\/e\/e40e677a67af931391d1b0c2fdebc6f9.jpg","120px":"http:\/\/pics.campl.us\/t\/e\/e40e677a67af931391d1b0c2fdebc6f9.jpg","480px":"http:\/\/pics.campl.us\/iphone\/e\/e40e677a67af931391d1b0c2fdebc6f9.jpg","fullwidth":800,"fullheight":600,"location":"45.43375707701355
+        12.33071473428265"},{"800px":"http:\/\/pics.campl.us\/f\/5\/5ad18dd25fb4538b1c7f12da02c6bbad.jpg","120px":"http:\/\/pics.campl.us\/t\/5\/5ad18dd25fb4538b1c7f12da02c6bbad.jpg","480px":"http:\/\/pics.campl.us\/iphone\/5\/5ad18dd25fb4538b1c7f12da02c6bbad.jpg","fullwidth":800,"fullheight":800,"location":"45.45260898307473
+        12.3505930043872"},{"800px":"http:\/\/pics.campl.us\/f\/f\/f916396ac3babf81af32969d375fbac9.jpg","120px":"http:\/\/pics.campl.us\/t\/f\/f916396ac3babf81af32969d375fbac9.jpg","480px":"http:\/\/pics.campl.us\/iphone\/f\/f916396ac3babf81af32969d375fbac9.jpg","fullwidth":800,"fullheight":600,"location":"45.45733558018269
+        12.35758535565097"},{"800px":"http:\/\/pics.campl.us\/f\/4\/4160e0d91786ff2e5d9a845137b3d22c.jpg","120px":"http:\/\/pics.campl.us\/t\/4\/4160e0d91786ff2e5d9a845137b3d22c.jpg","480px":"http:\/\/pics.campl.us\/iphone\/4\/4160e0d91786ff2e5d9a845137b3d22c.jpg","fullwidth":600,"fullheight":800,"location":"45.45726881832393
+        12.35750136898119"},{"800px":"http:\/\/pics.campl.us\/f\/c\/c24832c5278a01c4743298b8bc5a0ce7.jpg","120px":"http:\/\/pics.campl.us\/t\/c\/c24832c5278a01c4743298b8bc5a0ce7.jpg","480px":"http:\/\/pics.campl.us\/iphone\/c\/c24832c5278a01c4743298b8bc5a0ce7.jpg","fullwidth":800,"fullheight":600,"location":"45.43408564761787
+        12.33908297495203"},{"800px":"http:\/\/pics.campl.us\/f\/5\/5eb760f999a26122acb624403e7997f7.jpg","120px":"http:\/\/pics.campl.us\/t\/5\/5eb760f999a26122acb624403e7997f7.jpg","480px":"http:\/\/pics.campl.us\/iphone\/5\/5eb760f999a26122acb624403e7997f7.jpg","fullwidth":800,"fullheight":600,"location":"45.45328125361861
+        12.35078050756115"},{"800px":"http:\/\/pics.campl.us\/f\/e\/e12fbc04d5123b7d668f7d8a33a539dc.jpg","120px":"http:\/\/pics.campl.us\/t\/e\/e12fbc04d5123b7d668f7d8a33a539dc.jpg","480px":"http:\/\/pics.campl.us\/iphone\/e\/e12fbc04d5123b7d668f7d8a33a539dc.jpg","fullwidth":800,"fullheight":600,"location":"45.45369360134513
+        12.35250977800447"},{"800px":"http:\/\/pics.campl.us\/f\/6\/6163c6e8a3f666bedb277e66f50f0c50.jpg","120px":"http:\/\/pics.campl.us\/t\/6\/6163c6e8a3f666bedb277e66f50f0c50.jpg","480px":"http:\/\/pics.campl.us\/iphone\/6\/6163c6e8a3f666bedb277e66f50f0c50.jpg","fullwidth":800,"fullheight":800,"location":"45.45670764990659
+        12.35702997074682"},{"800px":"http:\/\/pics.campl.us\/f\/f\/f91364e2d51ede9bdf47c964b5894db0.jpg","120px":"http:\/\/pics.campl.us\/t\/f\/f91364e2d51ede9bdf47c964b5894db0.jpg","480px":"http:\/\/pics.campl.us\/iphone\/f\/f91364e2d51ede9bdf47c964b5894db0.jpg","fullwidth":800,"fullheight":800,"location":"45.43331086639821
+        12.34029022046583"},{"800px":"http:\/\/pics.campl.us\/f\/c\/c7670c5c4349687a0ead545a52eea4bf.jpg","120px":"http:\/\/pics.campl.us\/t\/c\/c7670c5c4349687a0ead545a52eea4bf.jpg","480px":"http:\/\/pics.campl.us\/iphone\/c\/c7670c5c4349687a0ead545a52eea4bf.jpg","fullwidth":800,"fullheight":600,"location":"45.43384274006396
+        12.34231092968242"},{"800px":"http:\/\/pics.campl.us\/f\/a\/a7702c761c4e73a59980a587b03e4948.jpg","120px":"http:\/\/pics.campl.us\/t\/a\/a7702c761c4e73a59980a587b03e4948.jpg","480px":"http:\/\/pics.campl.us\/iphone\/a\/a7702c761c4e73a59980a587b03e4948.jpg","fullwidth":600,"fullheight":800,"location":"45.43341136541724
+        12.3404278513159"},{"800px":"http:\/\/pics.campl.us\/f\/4\/491307893ab643d9e7760a05e756eb4c.jpg","120px":"http:\/\/pics.campl.us\/t\/4\/491307893ab643d9e7760a05e756eb4c.jpg","480px":"http:\/\/pics.campl.us\/iphone\/4\/491307893ab643d9e7760a05e756eb4c.jpg","fullwidth":800,"fullheight":600,"location":"45.43348294687032
+        12.341154897597"},{"800px":"http:\/\/pics.campl.us\/f\/8\/83c3fe48382f65041bab1f89dfd69484.jpg","120px":"http:\/\/pics.campl.us\/t\/8\/83c3fe48382f65041bab1f89dfd69484.jpg","480px":"http:\/\/pics.campl.us\/iphone\/8\/83c3fe48382f65041bab1f89dfd69484.jpg","fullwidth":800,"fullheight":600,"location":"45.43336107399821
+        12.3403609637286"},{"800px":"http:\/\/pics.campl.us\/f\/9\/9120f76c083c2fa08565929fa39e6a1d.jpg","120px":"http:\/\/pics.campl.us\/t\/9\/9120f76c083c2fa08565929fa39e6a1d.jpg","480px":"http:\/\/pics.campl.us\/iphone\/9\/9120f76c083c2fa08565929fa39e6a1d.jpg","fullwidth":800,"fullheight":800,"location":"45.43322792746633
+        12.339989393961"},{"800px":"http:\/\/pics.campl.us\/f\/b\/bfbf1fde47410ed4c9c72c9bfed79a58.jpg","120px":"http:\/\/pics.campl.us\/t\/b\/bfbf1fde47410ed4c9c72c9bfed79a58.jpg","480px":"http:\/\/pics.campl.us\/iphone\/b\/bfbf1fde47410ed4c9c72c9bfed79a58.jpg","fullwidth":800,"fullheight":800,"location":"45.43341013755053
+        12.33374546676013"},{"800px":"http:\/\/pics.campl.us\/f\/3\/3a6230af86b9a76e2dff2fd506611025.jpg","120px":"http:\/\/pics.campl.us\/t\/3\/3a6230af86b9a76e2dff2fd506611025.jpg","480px":"http:\/\/pics.campl.us\/iphone\/3\/3a6230af86b9a76e2dff2fd506611025.jpg","fullwidth":800,"fullheight":600,"location":"45.43258759197354
+        12.32999254950539"},{"800px":"http:\/\/pics.campl.us\/f\/b\/b87c9d5d82f207746527dfda7666b78c.jpg","120px":"http:\/\/pics.campl.us\/t\/b\/b87c9d5d82f207746527dfda7666b78c.jpg","480px":"http:\/\/pics.campl.us\/iphone\/b\/b87c9d5d82f207746527dfda7666b78c.jpg","fullwidth":683,"fullheight":800,"location":"45.43163389903068
+        12.32891069726304"},{"800px":"http:\/\/pics.campl.us\/f\/0\/0d9ad2449caa4ee90e04b7522f2bacd7.jpg","120px":"http:\/\/pics.campl.us\/t\/0\/0d9ad2449caa4ee90e04b7522f2bacd7.jpg","480px":"http:\/\/pics.campl.us\/iphone\/0\/0d9ad2449caa4ee90e04b7522f2bacd7.jpg","fullwidth":600,"fullheight":800,"location":"45.43128969617694
+        12.3287919256951"},{"800px":"http:\/\/pics.campl.us\/f\/f\/f7634d3b6756acacc793e9a1e1ae9880.jpg","120px":"http:\/\/pics.campl.us\/t\/f\/f7634d3b6756acacc793e9a1e1ae9880.jpg","480px":"http:\/\/pics.campl.us\/iphone\/f\/f7634d3b6756acacc793e9a1e1ae9880.jpg","fullwidth":800,"fullheight":800,"location":"45.43305719171672
+        12.33451146882646"},{"800px":"http:\/\/pics.campl.us\/f\/f\/fd4a9ffcb3c10885bc67a8fb5cad34b9.jpg","120px":"http:\/\/pics.campl.us\/t\/f\/fd4a9ffcb3c10885bc67a8fb5cad34b9.jpg","480px":"http:\/\/pics.campl.us\/iphone\/f\/fd4a9ffcb3c10885bc67a8fb5cad34b9.jpg","fullwidth":800,"fullheight":800,"location":"45.4316603858447
+        12.32891371474818"},{"800px":"http:\/\/pics.campl.us\/f\/d\/d4ea1e59b0966a5957f7e5372fb55c13.jpg","120px":"http:\/\/pics.campl.us\/t\/d\/d4ea1e59b0966a5957f7e5372fb55c13.jpg","480px":"http:\/\/pics.campl.us\/iphone\/d\/d4ea1e59b0966a5957f7e5372fb55c13.jpg","fullwidth":800,"fullheight":600,"location":"45.4353577271527
+        12.3342316970344"},{"800px":"http:\/\/pics.campl.us\/f\/3\/36f120c983655d41c24debe2bcbdbc7c.jpg","120px":"http:\/\/pics.campl.us\/t\/3\/36f120c983655d41c24debe2bcbdbc7c.jpg","480px":"http:\/\/pics.campl.us\/iphone\/3\/36f120c983655d41c24debe2bcbdbc7c.jpg","fullwidth":800,"fullheight":600,"location":"45.4316352820447
+        12.32890550048307"},{"800px":"http:\/\/pics.campl.us\/f\/2\/2d5e1530ffa319bb7bbd6026186f82ea.jpg","120px":"http:\/\/pics.campl.us\/t\/2\/2d5e1530ffa319bb7bbd6026186f82ea.jpg","480px":"http:\/\/pics.campl.us\/iphone\/2\/2d5e1530ffa319bb7bbd6026186f82ea.jpg","fullwidth":662,"fullheight":800,"location":"45.43336618695914
+        12.34029692598837"},{"800px":"http:\/\/pics.campl.us\/f\/e\/e8170f8e597d23a45eafba6be863607c.jpg","120px":"http:\/\/pics.campl.us\/t\/e\/e8170f8e597d23a45eafba6be863607c.jpg","480px":"http:\/\/pics.campl.us\/iphone\/e\/e8170f8e597d23a45eafba6be863607c.jpg","fullwidth":655,"fullheight":800,"location":""},{"800px":"http:\/\/pics.campl.us\/f\/c\/c783e4c9dd68ec7dc2cc6aa390c2df81.jpg","120px":"http:\/\/pics.campl.us\/t\/c\/c783e4c9dd68ec7dc2cc6aa390c2df81.jpg","480px":"http:\/\/pics.campl.us\/iphone\/c\/c783e4c9dd68ec7dc2cc6aa390c2df81.jpg","fullwidth":600,"fullheight":800,"location":"45.45624578150769
+        12.35432020530416"}]}],"next":"http:\/\/camerapl.us\/user\/mostlylisa:pages?continue=iao4"}'
+    http_version: 
+  recorded_at: Fri, 16 Mar 2012 23:03:18 GMT
+recorded_with: VCR 2.0.0

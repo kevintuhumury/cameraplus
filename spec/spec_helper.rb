@@ -1,8 +1,3 @@
-if ENV["coverage"]
-  require "simplecov"
-  SimpleCov.start
-end
-
 require "cameraplus"
 require "vcr_config"
 

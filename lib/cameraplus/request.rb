@@ -6,6 +6,10 @@ module Cameraplus
 
     format :json
 
+    def self.call(url, options = {})
+      new(url, options).response
+    end
+
     def initialize(url, options = {})
       @url      = url
       @options  = options

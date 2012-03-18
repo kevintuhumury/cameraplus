@@ -20,7 +20,7 @@ describe Cameraplus::Request do
 
     use_vcr_cassette :request_api
 
-    let(:response) { subject.new("/user/mostlylisa:pages").response }
+    let(:response) { subject.call("/user/mostlylisa:pages") }
 
     it "should have a response" do
       response.should_not be_nil

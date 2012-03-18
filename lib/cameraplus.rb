@@ -1,6 +1,7 @@
 require "httparty"
 require "core_ext/hash"
 
-require "cameraplus/request"
+require "cameraplus/api/request"
+require "cameraplus/api/user"
 require "cameraplus/user"
 require "cameraplus/version"

@@ -13,7 +13,7 @@ module Cameraplus
     end
 
     def self.find(identifier, options = {})
-      new Request.new("/user/#{identifier}:pages", options).response
+      new Cameraplus::API::User.find(identifier, options)
     end
 
   end

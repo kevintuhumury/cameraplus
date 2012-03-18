@@ -1,8 +1,8 @@
 require "spec_helper"
 
-describe Cameraplus::Request do
+describe Cameraplus::API::Request do
 
-  subject { Cameraplus::Request }
+  subject { Cameraplus::API::Request }
 
   context "configuration" do
 

@@ -7,7 +7,7 @@ describe Cameraplus::User do
   let(:user) { Cameraplus::User.find "mostlylisa" }
 
   it "should be a User" do
-    user.class.should eq Cameraplus::User
+    user.should be_a Cameraplus::User
   end
 
   context ".find" do
@@ -34,6 +34,22 @@ describe Cameraplus::User do
 
     it "finds the number of photos of the specified user" do
       user.photo_count.should eq 874
+    end
+
+  end
+
+  context "#pages" do
+
+    it "should be an Array" do
+      user.pages.should be_a Array
+    end
+
+    it "should contain a Cameraplus::Page" do
+      user.pages.first.should be_a Cameraplus::Page
+    end
+
+    it "should have one page" do
+      user.pages.size.should eq 1
     end
 
   end

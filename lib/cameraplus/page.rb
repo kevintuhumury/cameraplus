@@ -17,7 +17,7 @@ module Cameraplus
 
     def parse_page
       @url           = @data.url
-      @timestamp     = @data.timestamp
+      @timestamp     = DateTime.parse(@data.timestamp)
       @location      = @data.location
       @location_name = @data.locationname
       @tweet_text    = @data.tweettext

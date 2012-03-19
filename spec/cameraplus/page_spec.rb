@@ -36,7 +36,7 @@ describe Cameraplus::Page do
     end
 
     it "has a timestamp" do
-      subject.timestamp.should eq "2012-03-14 22:53:49"
+      subject.timestamp.should eq DateTime.parse("2012-03-14 22:53:49")
     end
 
     it "has a location" do

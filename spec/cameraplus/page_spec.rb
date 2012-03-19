@@ -27,7 +27,7 @@ describe Cameraplus::Page do
     }
   end
 
-  subject { Cameraplus::Page.new(data) }
+  subject { Cameraplus::Page.new data }
 
   context "instance" do
 

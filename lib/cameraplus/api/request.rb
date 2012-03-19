@@ -23,7 +23,7 @@ module Cameraplus
       private
 
       def request
-        self.class.get(@url, query: @options)
+        self.class.get @url, query: @options
       end
 
     end

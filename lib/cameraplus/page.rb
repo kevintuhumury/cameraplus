@@ -17,7 +17,7 @@ module Cameraplus
 
     def parse_page
       @url           = @data.url
-      @created_at    = DateTime.parse(@data.timestamp)
+      @created_at    = DateTime.parse @data.timestamp
       @location      = @data.location
       @location_name = @data.locationname
       @tweet_text    = @data.tweettext
@@ -27,7 +27,7 @@ module Cameraplus
     end
 
     def parse_photos
-      @photos ||= @data.images.map { |image| Photo.new(image) }
+      @photos ||= @data.images.map { |image| Photo.new image }
     end
 
   end

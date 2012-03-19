@@ -13,7 +13,7 @@ describe Cameraplus::Photo do
     }
   end
 
-  subject { Cameraplus::Photo.new(data) }
+  subject { Cameraplus::Photo.new data }
 
   it "has a small version" do
     subject.small.should eq "http://pics.campl.us/t/0/0b497f01791c851db1a17f81e0621a5c.jpg"

@@ -1,7 +1,7 @@
 module Cameraplus
   class Page
 
-    attr_reader :url, :timestamp, :location, :location_name, :tweet_text, :tweet_id, :view_count, :comment_count, :photos
+    attr_reader :url, :created_at, :location, :location_name, :tweet_text, :tweet_id, :view_count, :comment_count, :photos
 
     def initialize(data)
       @data = data
@@ -17,7 +17,7 @@ module Cameraplus
 
     def parse_page
       @url           = @data.url
-      @timestamp     = DateTime.parse(@data.timestamp)
+      @created_at    = DateTime.parse(@data.timestamp)
       @location      = @data.location
       @location_name = @data.locationname
       @tweet_text    = @data.tweettext

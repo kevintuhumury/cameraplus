@@ -1,4 +1,4 @@
-# Cameraplus
+# Cameraplus (Camera+)
 
 This gem provides a Ruby wrapper around the Camera+ API, using HTTParty. [Camera+](http://camerapl.us) is an iPhone photo app made by [tap tap tap](http://taptaptap.com) with effects made by professional photographer Lisa Bettany. Cameraplus is based on the [Web Sharing API](http://api.campl.us/web-api).
 

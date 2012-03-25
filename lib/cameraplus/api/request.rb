@@ -5,10 +5,8 @@ module Cameraplus
 
       base_uri "http://camerapl.us"
 
-      format :json
-
       def self.call(url, options = {})
-        new(url, options).response
+        new(url, options).parsed_response
       end
 
       def initialize(url, options = {})
@@ -16,14 +14,30 @@ module Cameraplus
         @options  = options
       end
 
-      def response
-        request.parsed_response
+      def parsed_response
+        if code == 200
+          @response.parsed_response
+        else
+          raise InvalidResponseError, message
+        end
       end
 
       private
 
       def request
-        self.class.get @url, query: @options
+        @response ||= self.class.get @url, query: @options
+      end
+
+      def response
+        request.response
+      end
+
+      def code
+        response.code.to_i
+      end
+
+      def message
+        "#{@response.message} (#{@response.code}): #{@response.body}\n#{@response.inspect}"
       end
 
     end

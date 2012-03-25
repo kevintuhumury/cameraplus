@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://camerapl.us/non-existing-page?
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Sun, 25 Mar 2012 16:47:40 GMT
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache/2.2.21 (Amazon)
+      Set-Cookie:
+      - PHPSESSID=7v53q5k9m16h8qrghjdp5mj1g3; expires=Fri, 21-Sep-2012 16:47:40 GMT;
+        path=/; domain=.campl.us
+      - PHPSESSID=7v53q5k9m16h8qrghjdp5mj1g3; expires=Fri, 21-Sep-2012 16:47:40 GMT;
+        path=/; domain=.campl.us
+      X-Powered-By:
+      - PHP/5.3.10
+      Content-Length:
+      - '956'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE html> \n<html lang=\"en\"> \n<head> \n\t<meta charset=\"UTF-8\"
+        /> \n\t<title>Camera+ ~ Error</title> \n\t<meta name = \"viewport\" content
+        = \"width = device-width\"> \n\t<style type=\"text/css\">@import url('/static/error.css?14');
+        </style> \n<head> \n<body class=\"error\"> \n\t<div class=\"container\"> \n\t\t<a
+        href=\"/\"><div class=\"findOutMore\"></div><h1>Camera+</h1></a> \n \n\t\t<div
+        class=\"box1\"> \n\t\t<div class=\"box2\"> \n\t\t<div id=\"contentArea\">
+        \n\t\t<div class=\"box3\"> \n\t\t\n\t\t\t<div class=\"errorbox\">\n\t\t\t\t<div
+        class=\"icon error404page\"></div>\n\t\t\t\t<div class=\"message\">Page not
+        found</div>\n\t\t\t\t<div class=\"message2\">Sorry, the requested page could
+        not be found</div>\n\t\t\t</div>\n\t\t\t<div class=\"login\"></div>\n\t\t\n\t\t</div>
+        \n\t\t</div>\t\n\t\t</div>\t\n\t\t</div> \n\t</div> \n\t\n\t<script type=\"text/javascript\"
+        src=\"http://include.reinvigorate.net/re_.js\"></script> \n\t<script type=\"text/javascript\">
+        \n\ttry {\n\t\treinvigorate.track(\"995iv-68r19xp73x\");\n\t} catch(err) {}\n\t</script>
+        \n</body> \n</html> \n"
+    http_version: 
+  recorded_at: Sun, 25 Mar 2012 16:47:40 GMT
+recorded_with: VCR 2.0.0

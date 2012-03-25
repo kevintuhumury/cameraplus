@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["kevin.tuhumury@gmail.com"]
   gem.homepage      = "http://github.com/kevintuhumury/cameraplus"
   gem.summary       = %q{A Ruby wrapper around the Camera+ (camerapl.us) API.}
-  gem.description   = %q{This gem provides a Ruby wrapper around the Camera+ (camerapl.us) API for use in your own project.}
+  gem.description   = %q{This gem provides a Ruby wrapper around the Camera+ (http://camerapl.us) iPhone app Web Sharing API for use in your own project.}
 
   gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

@@ -3,7 +3,7 @@ module Cameraplus
     class Page
 
       def self.find(identifier, options = {})
-        Request.call(uri(identifier), options)
+        Request.call uri(identifier), options
       end
 
       private

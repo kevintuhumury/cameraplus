@@ -35,7 +35,7 @@ describe Cameraplus::Page do
       subject.url.should eq "http://campl.us/iao4"
     end
 
-    it "has a created at datetime" do
+    it "has a datetime at which it was created" do
       subject.created_at.should eq DateTime.parse("2012-03-14 22:53:49")
     end
 

@@ -34,7 +34,7 @@ module Cameraplus
     end
 
     def parse_user
-      @user ||= Cameraplus::User.new(user: @data.page.tweet)
+      @user ||= Cameraplus::User.new user: @data.page.tweet
     end
 
     def parse_photos

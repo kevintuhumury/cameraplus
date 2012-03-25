@@ -4,7 +4,7 @@ describe Cameraplus::API::User do
 
   use_vcr_cassette :user
 
-  it "should be a hash" do
+  it "should receive a hash" do
     response = Cameraplus::API::User.find "mostlylisa"
     response.should be_a Hash
   end

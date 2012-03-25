@@ -1,4 +1,5 @@
 class Hash
+
   def method_missing(method, *args, &block)
     if self.has_key? method
       return self[method]
@@ -8,4 +9,5 @@ class Hash
       super
     end
   end
+
 end

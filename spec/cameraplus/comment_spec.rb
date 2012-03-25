@@ -25,7 +25,7 @@ describe Cameraplus::Comment do
     subject.url.should eq "http://www.facebook.com/profile.php?id=674215636"
   end
 
-  it "has a text" do
+  it "has text" do
     subject.text.should eq "great shot!"
   end
 

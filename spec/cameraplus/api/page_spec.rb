@@ -4,7 +4,7 @@ describe Cameraplus::API::Page do
 
   use_vcr_cassette :page
 
-  it "should be a Hash" do
+  it "should receive a Hash" do
     response = Cameraplus::API::Page.find "b72Z"
     response.should be_a Hash
   end

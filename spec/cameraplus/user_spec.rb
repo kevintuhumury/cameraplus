@@ -29,11 +29,11 @@ describe Cameraplus::User do
     end
 
     it "finds the number of pages of the specified user" do
-      user.page_count.should eq 120
+      user.page_count.should eq 122
     end
 
     it "finds the number of photos of the specified user" do
-      user.photo_count.should eq 874
+      user.photo_count.should eq 876
     end
 
   end
@@ -49,7 +49,32 @@ describe Cameraplus::User do
     end
 
     it "should have one page" do
-      user.pages.size.should eq 1
+      user.pages.size.should eq 3
+    end
+
+  end
+
+  context "#more_results" do
+
+    use_vcr_cassette :more_results
+
+    let(:user)          { Cameraplus::User.find "kalleboo" }
+    let(:more_results)  { user.more_results }
+
+    it "should be a User" do
+      more_results.should be_a Cameraplus::User
+    end
+
+    it "should retrieve more pages" do
+      more_results.pages.should be_an Array
+    end
+
+    it "should contain pages that aren't the same as the first pages" do
+      more_results.pages.should_not eq user.pages
+    end
+
+    it "should contain Cameraplus::Page objects" do
+      more_results.pages.each { |page| page.should be_a Cameraplus::Page }
     end
 
   end

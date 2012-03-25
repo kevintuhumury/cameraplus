@@ -12,6 +12,10 @@ module Cameraplus
       parse
     end
 
+    def more_results
+      @more_results ||= User.find(username, continue: next_page_id) if has_more_pages?
+    end
+
     private
 
     def parse
@@ -40,8 +44,20 @@ module Cameraplus
       @data.user.pictures.to_i if has_photo_count?
     end
 
+    def next_page_id
+      @data.next.match(next_page_regex).to_a.last
+    end
+
+    def next_page_regex
+      /http:\/\/camerapl.us\/user\/#{username}:pages\?continue=(.*)/
+    end
+
     def has_pages?
       @data.has_key? "pages"
+    end
+
+    def has_more_pages?
+      @data.has_key? "next"
     end
 
     def has_page_count?

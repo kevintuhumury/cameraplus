@@ -17,7 +17,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sat, 17 Mar 2012 09:21:59 GMT
+      - Sun, 25 Mar 2012 18:31:06 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -25,9 +25,9 @@ http_interactions:
       Server:
       - Apache/2.2.21 (Amazon)
       Set-Cookie:
-      - PHPSESSID=ognro869qkal3uoebh365mhpv7; expires=Thu, 13-Sep-2012 09:21:59 GMT;
+      - PHPSESSID=pdsgi9se237lubj8lqdi3903d3; expires=Fri, 21-Sep-2012 18:31:06 GMT;
         path=/; domain=.campl.us
-      - PHPSESSID=ognro869qkal3uoebh365mhpv7; expires=Thu, 13-Sep-2012 09:21:59 GMT;
+      - PHPSESSID=pdsgi9se237lubj8lqdi3903d3; expires=Fri, 21-Sep-2012 18:31:06 GMT;
         path=/; domain=.campl.us
       X-Powered-By:
       - PHP/5.3.10
@@ -38,9 +38,14 @@ http_interactions:
     body:
       encoding: US-ASCII
       string: ! '{"user":{"userid":6978642,"username":"mostlylisa","realname":"Lisa
-        Bettany","avatar":"http:\/\/a0.twimg.com\/profile_images\/1767370289\/284161_10150711631895637_674215636_19658534_6246798_n_normal.jpeg","pages":120,"pictures":874},"pages":[{"url":"http:\/\/campl.us\/iao4","tweettext":"Carnival
+        Bettany","avatar":"http:\/\/a0.twimg.com\/profile_images\/1767370289\/284161_10150711631895637_674215636_19658534_6246798_n_normal.jpeg","pages":122,"pictures":876},"pages":[{"url":"http:\/\/campl.us\/iiQb","tweettext":"@bbcrenshaw
+        On average I take 5-15 shots of each scene to make sure my composition & focus
+        are perfect. I took 10 here.","tweetid":"182208844892606464","timestamp":"2012-03-20
+        20:55:48","views":167,"comments":0,"location":null,"locationname":null,"images":[{"800px":"http:\/\/pics.campl.us\/f\/d\/de7421b027101574dc519796067bd3ac.jpg","120px":"http:\/\/pics.campl.us\/t\/d\/de7421b027101574dc519796067bd3ac.jpg","480px":"http:\/\/pics.campl.us\/iphone\/d\/de7421b027101574dc519796067bd3ac.jpg","fullwidth":533,"fullheight":800,"location":""}]},{"url":"http:\/\/campl.us\/iiPj","tweettext":"Back
+        in the Big Apple!","tweetid":"182204831094673408","timestamp":"2012-03-20
+        20:39:51","views":1408,"comments":2,"location":null,"locationname":null,"images":[{"800px":"http:\/\/pics.campl.us\/f\/1\/15e03b8d68880348c0542e4944d14641.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/15e03b8d68880348c0542e4944d14641.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/15e03b8d68880348c0542e4944d14641.jpg","fullwidth":600,"fullheight":800,"location":""}]},{"url":"http:\/\/campl.us\/iao4","tweettext":"Carnival
         in Venice, a travel photographer''s dream shoot!","tweetid":"180064216093437954","timestamp":"2012-03-14
-        22:53:49","views":1951,"comments":1,"location":"45.43383498680353 12.34226474539595","locationname":"Venice,
+        22:53:49","views":2429,"comments":1,"location":"45.43383498680353 12.34226474539595","locationname":"Venice,
         Venice","images":[{"800px":"http:\/\/pics.campl.us\/f\/0\/0b497f01791c851db1a17f81e0621a5c.jpg","120px":"http:\/\/pics.campl.us\/t\/0\/0b497f01791c851db1a17f81e0621a5c.jpg","480px":"http:\/\/pics.campl.us\/iphone\/0\/0b497f01791c851db1a17f81e0621a5c.jpg","fullwidth":800,"fullheight":590,"location":"45.43383498680353
         12.34226474539595"},{"800px":"http:\/\/pics.campl.us\/f\/a\/a2fb3bfe849f16f5420f4ca8348f33a0.jpg","120px":"http:\/\/pics.campl.us\/t\/a\/a2fb3bfe849f16f5420f4ca8348f33a0.jpg","480px":"http:\/\/pics.campl.us\/iphone\/a\/a2fb3bfe849f16f5420f4ca8348f33a0.jpg","fullwidth":800,"fullheight":601,"location":"45.43305496689438
         12.33965336346285"},{"800px":"http:\/\/pics.campl.us\/f\/e\/e40e677a67af931391d1b0c2fdebc6f9.jpg","120px":"http:\/\/pics.campl.us\/t\/e\/e40e677a67af931391d1b0c2fdebc6f9.jpg","480px":"http:\/\/pics.campl.us\/iphone\/e\/e40e677a67af931391d1b0c2fdebc6f9.jpg","fullwidth":800,"fullheight":600,"location":"45.43375707701355
@@ -69,5 +74,5 @@ http_interactions:
         12.34029692598837"},{"800px":"http:\/\/pics.campl.us\/f\/e\/e8170f8e597d23a45eafba6be863607c.jpg","120px":"http:\/\/pics.campl.us\/t\/e\/e8170f8e597d23a45eafba6be863607c.jpg","480px":"http:\/\/pics.campl.us\/iphone\/e\/e8170f8e597d23a45eafba6be863607c.jpg","fullwidth":655,"fullheight":800,"location":""},{"800px":"http:\/\/pics.campl.us\/f\/c\/c783e4c9dd68ec7dc2cc6aa390c2df81.jpg","120px":"http:\/\/pics.campl.us\/t\/c\/c783e4c9dd68ec7dc2cc6aa390c2df81.jpg","480px":"http:\/\/pics.campl.us\/iphone\/c\/c783e4c9dd68ec7dc2cc6aa390c2df81.jpg","fullwidth":600,"fullheight":800,"location":"45.45624578150769
         12.35432020530416"}]}],"next":"http:\/\/camerapl.us\/user\/mostlylisa:pages?continue=iao4"}'
     http_version: 
-  recorded_at: Sat, 17 Mar 2012 09:22:00 GMT
+  recorded_at: Sun, 25 Mar 2012 18:31:06 GMT
 recorded_with: VCR 2.0.0

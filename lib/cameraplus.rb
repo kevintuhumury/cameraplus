@@ -4,6 +4,7 @@ require "core_ext/hash"
 require "cameraplus/api/request"
 require "cameraplus/api/user"
 require "cameraplus/api/page"
+require "cameraplus/api/search"
 
 require "cameraplus/user"
 require "cameraplus/page"

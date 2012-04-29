@@ -2,16 +2,16 @@ require "spec_helper"
 
 describe Cameraplus::API::Page do
 
-  use_vcr_cassette :page
+  use_vcr_cassette :page, :record => :new_episodes
 
   it "should receive a Hash" do
     response = Cameraplus::API::Page.find "b72Z"
     response.should be_a Hash
   end
-
-  it "should make a request to the Camera+ API" do
-    Cameraplus::API::Request.should_receive(:call).with "/b72Z:info", {}
-    Cameraplus::API::Page.find "b72Z"
+  
+  it "should parse page from 'Create a web link' API" do
+    response = Cameraplus::API::Page.find "gcD72vPLXoq"
+    response.should be_a Hash
   end
 
 end

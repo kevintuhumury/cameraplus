@@ -42,7 +42,11 @@ module Cameraplus
     end
 
     def parse_comments
-      @comments ||= @data.comments.map { |comment| Comment.new comment }
+      begin
+        @comments ||= @data.comments.map { |comment| Comment.new comment }
+      rescue NoMethodError => e
+        @comments = []
+      end
     end
 
     def parsed_url

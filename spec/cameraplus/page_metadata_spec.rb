@@ -111,6 +111,12 @@ describe Cameraplus::PageMetadata do
     it "should know the authors of the comments" do
       subject.comments.map(&:author).should eq ["Lisa Bettany", "Oleg Lutsenko", "Oliver Penack", "John Goundry \u2714", "Jason Hansen", "Jonathan Feuer"]
     end
+    
+    it "should be optional" do
+      subject = Cameraplus::PageMetadata.find "gcD72vPLXoq"
+      subject.comments.should be_an Array
+      subject.comments.size.should eq 0
+    end
 
   end
 

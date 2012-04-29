@@ -39,7 +39,8 @@ http_interactions:
       encoding: US-ASCII
       string: ! '{"page":{"timestamp":"2011-07-01 21:50:40","views":925,"comments":6,"tweet":{"id":"86914646237384704","text":"Tiny
         Town of Kotor, Montenegro #mybestphoto","userid":14199276,"username":"lucyk","realname":"Oleg
-        Lutsenko","avatar":"http:\/\/a0.twimg.com\/profile_images\/1318866321\/avatar1_sqr_normal.jpg"},"location":{"coords":"42.574017 18.641312","name":"Kotor, Montenegro"}},"pictures":[{"800px":"http:\/\/pics.campl.us\/f\/f\/f2cc65ab786741e7ab9fb994d06626a6.jpg","120px":"http:\/\/pics.campl.us\/t\/f\/f2cc65ab786741e7ab9fb994d06626a6.jpg","480px":"http:\/\/pics.campl.us\/iphone\/f\/f2cc65ab786741e7ab9fb994d06626a6.jpg","fullwidth":800,"fullheight":597,"recipe":[{"type":"scenemode","value":"<a
+        Lutsenko","avatar":"http:\/\/a0.twimg.com\/profile_images\/1318866321\/avatar1_sqr_normal.jpg"},"location":{"coords":"42.574017
+        18.641312","name":"Kotor, Montenegro"}},"pictures":[{"800px":"http:\/\/pics.campl.us\/f\/f\/f2cc65ab786741e7ab9fb994d06626a6.jpg","120px":"http:\/\/pics.campl.us\/t\/f\/f2cc65ab786741e7ab9fb994d06626a6.jpg","480px":"http:\/\/pics.campl.us\/iphone\/f\/f2cc65ab786741e7ab9fb994d06626a6.jpg","fullwidth":800,"fullheight":597,"recipe":[{"type":"scenemode","value":"<a
         href=\"\/clarity\" class=\"claritylink\">Clarity<\/a>"},{"type":"fx","value":"Miniaturize
         (80%)"}],"exifdata":[{"title":"Camera","value":"Apple iPhone","style":"main"},{"title":"Software","value":"Camera+
         2.2.1","style":"main"},{"title":"Exposure","value":"1\/580 sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
@@ -53,6 +54,46 @@ http_interactions:
         love tilt-shift photos & this is one of the best that I have seen.  Great
         shot!"},{"author":"Jonathan Feuer","avatar":"http:\/\/a1.twimg.com\/profile_images\/1375174511\/2D45AE39-9DB5-45C1-9F6E-D214DAEE514E_normal","url":"http:\/\/twitter.com\/SporTech","text":"This
         looks fantastic!  Congrats."}]}'
-    http_version:
+    http_version: 
   recorded_at: Mon, 19 Mar 2012 20:42:07 GMT
-recorded_with: VCR 2.0.0
+- request:
+    method: get
+    uri: http://camerapl.us/gcD72vPLXoq:info?
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 29 Apr 2012 05:21:12 GMT
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache/2.2.22 (Amazon)
+      Set-Cookie:
+      - PHPSESSID=r2j3s5afiveiu8bs2n8apu2rf5; expires=Fri, 26-Oct-2012 05:21:12 GMT;
+        path=/; domain=.campl.us
+      - PHPSESSID=r2j3s5afiveiu8bs2n8apu2rf5; expires=Fri, 26-Oct-2012 05:21:12 GMT;
+        path=/; domain=.campl.us
+      X-Powered-By:
+      - PHP/5.3.10
+      Content-Length:
+      - '472'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '{"page":{"timestamp":"2012-04-24 09:54:45","views":44,"comments":0,"tweet":{"id":null,"text":"link","userid":null,"username":null,"realname":null,"avatar":null}},"pictures":[{"800px":"http:\/\/pics.campl.us\/f\/8\/8da5f70558ea9027e1fe5890af52e113.jpg","120px":"http:\/\/pics.campl.us\/t\/8\/8da5f70558ea9027e1fe5890af52e113.jpg","480px":"http:\/\/pics.campl.us\/iphone\/8\/8da5f70558ea9027e1fe5890af52e113.jpg","fullwidth":533,"fullheight":800,"recipe":[],"exifdata":[]}]}'
+    http_version: 
+  recorded_at: Sun, 29 Apr 2012 05:21:12 GMT
+recorded_with: VCR 2.1.1

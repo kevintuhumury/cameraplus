@@ -2,9 +2,7 @@ require "spec_helper"
 
 describe Cameraplus::API::Search do
 
-  context "with a valid argument" do
-
-    use_vcr_cassette :search
+  context "with a valid argument", :vcr do
 
     it "should receive an Array" do
       response = Cameraplus::API::Search.find username: "mostlylisa"

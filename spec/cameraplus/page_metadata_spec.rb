@@ -1,10 +1,8 @@
 require "spec_helper"
 
-describe Cameraplus::PageMetadata do
+describe Cameraplus::PageMetadata, :vcr do
 
-  use_vcr_cassette :page
-
-  subject { Cameraplus::PageMetadata.find "b72Z" }
+  subject { Cameraplus::PageMetadata.find "mnc5" }
 
   it "should be a Page" do
     subject.should be_a Cameraplus::PageMetadata
@@ -13,35 +11,35 @@ describe Cameraplus::PageMetadata do
   context ".find" do
 
     it "finds the url of the specified page" do
-      subject.url.should eq "http://camerapl.us/b72Z"
+      subject.url.should eq "http://camerapl.us/mnc5"
     end
 
     it "finds the created at datetime of the specified page" do
-      subject.created_at.should eq DateTime.parse("2011-07-01 21:50:40")
+      subject.created_at.should eq DateTime.parse("2012-10-14 19:02:41")
     end
 
     it "finds the location of the specified page" do
-      subject.location.should eq "42.574017 18.641312"
+      subject.location.should eq "-54.83939283532541 -68.31303983001813"
     end
 
     it "finds the location name of the specified page" do
-      subject.location_name.should eq "Kotor, Montenegro"
+      subject.location_name.should eq "Ushuaia, Argentina"
     end
 
     it "finds the tweet text of the specified page" do
-      subject.tweet_text.should eq "Tiny Town of Kotor, Montenegro #mybestphoto"
+      subject.tweet_text.should eq "Ushuaia, Argentina. El fin del mundo!"
     end
 
     it "finds the tweet id of the specified page" do
-      subject.tweet_id.should eq 86914646237384704
+      subject.tweet_id.should eq 257557053906763776
     end
 
     it "finds the view count of the specified page" do
-      subject.view_count.should eq 925
+      subject.view_count.should eq 6340
     end
 
     it "finds the comment count of the specified page" do
-      subject.comment_count.should eq 6
+      subject.comment_count.should eq 5
     end
 
   end
@@ -53,11 +51,11 @@ describe Cameraplus::PageMetadata do
     end
 
     it "has an username" do
-      subject.user.username.should eq "lucyk"
+      subject.user.username.should eq "mostlylisa"
     end
 
     it "has a name" do
-      subject.user.name.should eq "Oleg Lutsenko"
+      subject.user.name.should eq "Lisa Bettany"
     end
 
   end
@@ -105,13 +103,13 @@ describe Cameraplus::PageMetadata do
     end
 
     it "should know the number of comments" do
-      subject.comments.size.should eq 6
+      subject.comments.size.should eq 5
     end
 
     it "should know the authors of the comments" do
-      subject.comments.map(&:author).should eq ["Lisa Bettany", "Oleg Lutsenko", "Oliver Penack", "John Goundry \u2714", "Jason Hansen", "Jonathan Feuer"]
+      subject.comments.map(&:author).should eq ["Robert-Paul Jansen", "Tiffy Huges", "francisco", "ionica", "bemap iphoneography"]
     end
-    
+
     it "should be optional" do
       subject = Cameraplus::PageMetadata.find "gcD72vPLXoq"
       subject.comments.should be_an Array

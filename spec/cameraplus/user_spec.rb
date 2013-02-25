@@ -1,8 +1,6 @@
 require "spec_helper"
 
-describe Cameraplus::User do
-
-  use_vcr_cassette :user
+describe Cameraplus::User, :vcr do
 
   let(:user) { Cameraplus::User.find "mostlylisa" }
 
@@ -25,15 +23,15 @@ describe Cameraplus::User do
     end
 
     it "finds the avatar of the specified user" do
-      user.avatar.should eq "http://a0.twimg.com/profile_images/1767370289/284161_10150711631895637_674215636_19658534_6246798_n_normal.jpeg"
+      user.avatar.should eq "http://a0.twimg.com/profile_images/2973069182/d0715d6c5e235343adea29f2ada071f3_normal.jpeg"
     end
 
     it "finds the number of pages of the specified user" do
-      user.page_count.should eq 122
+      user.page_count.should eq 142
     end
 
     it "finds the number of photos of the specified user" do
-      user.photo_count.should eq 876
+      user.photo_count.should eq 968
     end
 
   end
@@ -49,14 +47,12 @@ describe Cameraplus::User do
     end
 
     it "should have one page" do
-      user.pages.size.should eq 3
+      user.pages.size.should eq 9
     end
 
   end
 
-  context "#more_results" do
-
-    use_vcr_cassette :more_results
+  context "#more_results", :vcr do
 
     let(:user)          { Cameraplus::User.find "kalleboo" }
     let(:more_results)  { user.more_results }

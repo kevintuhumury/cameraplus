@@ -1,0 +1,178 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://camerapl.us/mnc5:info?
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 25 Feb 2013 22:12:46 GMT
+      Server:
+      - Apache/2.2.22 (Amazon)
+      X-Powered-By:
+      - PHP/5.3.10
+      Set-Cookie:
+      - PHPSESSID=ngridhiauk85ac3n9k6hocvb84; expires=Sat, 24-Aug-2013 22:12:46 GMT;
+        path=/; domain=.campl.us
+      - PHPSESSID=ngridhiauk85ac3n9k6hocvb84; expires=Sat, 24-Aug-2013 22:12:46 GMT;
+        path=/; domain=.campl.us
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! '{"page":{"timestamp":"2012-10-14 19:02:41","views":6340,"comments":5,"tweet":{"id":"257557053906763776","text":"Ushuaia,
+        Argentina. El fin del mundo!","userid":6978642,"username":"mostlylisa","realname":"Lisa
+        Bettany","avatar":"http:\/\/a0.twimg.com\/profile_images\/2973069182\/d0715d6c5e235343adea29f2ada071f3_normal.jpeg"},"location":{"coords":"-54.83939283532541
+        -68.31303983001813","name":"Ushuaia, Argentina"}},"pictures":[{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.6d25629bbfd0d729e8ba2b0c4a9132fc.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.6d25629bbfd0d729e8ba2b0c4a9132fc.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.6d25629bbfd0d729e8ba2b0c4a9132fc.jpg","fullwidth":1200,"fullheight":900,"location":"-54.83939283532541
+        -68.31303983001813","recipe":[{"type":"scenemode","value":"<a href=\"\/clarity\"
+        class=\"claritylink\">Clarity<\/a>"}],"exifdata":[{"title":"Camera","value":"Apple
+        iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/2262
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Off,
+        Did not fire","style":""},{"title":"Metering Mode","value":"Multi-segment","style":""},{"title":"Light
+        Value","value":"14.7","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.ebbf837e01cb7f5fc8eaa9a35ad8b426.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.ebbf837e01cb7f5fc8eaa9a35ad8b426.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.ebbf837e01cb7f5fc8eaa9a35ad8b426.jpg","fullwidth":928,"fullheight":1200,"location":"-54.83938286086064
+        -68.3127701841931","recipe":[{"type":"crop","value":"Freeform"}],"exifdata":[{"title":"Camera","value":"Apple
+        iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/809
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Off,
+        Did not fire","style":""},{"title":"Metering Mode","value":"Spot","style":""},{"title":"Light
+        Value","value":"13.2","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.0e29aaa201f32cf6caf610373a2bd530.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.0e29aaa201f32cf6caf610373a2bd530.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.0e29aaa201f32cf6caf610373a2bd530.jpg","fullwidth":1200,"fullheight":900,"location":"-54.83931391970705
+        -68.31274520612165","recipe":[{"type":"scenemode","value":"<a href=\"\/clarity\"
+        class=\"claritylink\">Clarity<\/a>"}],"exifdata":[{"title":"Camera","value":"Apple
+        iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/4926
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Auto,
+        Fired","style":""},{"title":"Metering Mode","value":"Spot","style":""},{"title":"Light
+        Value","value":"15.8","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.44295063ad112a624fc727ae5d76b2c3.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.44295063ad112a624fc727ae5d76b2c3.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.44295063ad112a624fc727ae5d76b2c3.jpg","fullwidth":1200,"fullheight":900,"location":"-54.8393211700533
+        -68.31281284808024","recipe":[{"type":"scenemode","value":"<a href=\"\/clarity\"
+        class=\"claritylink\">Clarity<\/a>"}],"exifdata":[{"title":"Camera","value":"Apple
+        iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/1130
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Auto,
+        Fired","style":""},{"title":"Metering Mode","value":"Spot","style":""},{"title":"Light
+        Value","value":"13.7","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.7ce82d48f4f8e54ba7dee4cbc6c37f5d.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.7ce82d48f4f8e54ba7dee4cbc6c37f5d.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.7ce82d48f4f8e54ba7dee4cbc6c37f5d.jpg","fullwidth":1200,"fullheight":900,"location":"-54.82877899897734
+        -68.34559824324059","recipe":[{"type":"scenemode","value":"<a href=\"\/clarity\"
+        class=\"claritylink\">Clarity<\/a>"},{"type":"fx","value":"Vibrant (53%)"}],"exifdata":[{"title":"Camera","value":"Apple
+        iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/733
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Off,
+        Did not fire","style":""},{"title":"Metering Mode","value":"Spot","style":""},{"title":"Light
+        Value","value":"13.0","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.2dee10473289d6148ae3817d29a03673.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.2dee10473289d6148ae3817d29a03673.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.2dee10473289d6148ae3817d29a03673.jpg","fullwidth":900,"fullheight":1200,"location":"-54.84193808404248
+        -68.3725520969074","recipe":[{"type":"fx","value":"Vibrant (37%)"}],"exifdata":[{"title":"Camera","value":"Apple
+        iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/384
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Off,
+        Did not fire","style":""},{"title":"Metering Mode","value":"Multi-segment","style":""},{"title":"Light
+        Value","value":"12.1","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.e7a84fa568be03adcc4d1cded91c6cc6.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.e7a84fa568be03adcc4d1cded91c6cc6.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.e7a84fa568be03adcc4d1cded91c6cc6.jpg","fullwidth":1200,"fullheight":900,"location":"-54.84202575874966
+        -68.37252125150373","recipe":[{"type":"scenemode","value":"<a href=\"\/clarity\"
+        class=\"claritylink\">Clarity<\/a>"},{"type":"fx","value":"Vibrant (35%)"}],"exifdata":[{"title":"Camera","value":"Apple
+        iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/1427
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Off,
+        Did not fire","style":""},{"title":"Metering Mode","value":"Multi-segment","style":""},{"title":"Light
+        Value","value":"14.0","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.d275a294bbbc969e9e033eb70315f3a1.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.d275a294bbbc969e9e033eb70315f3a1.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.d275a294bbbc969e9e033eb70315f3a1.jpg","fullwidth":1200,"fullheight":898,"location":"-54.842
+        -68.37266666666666","recipe":[{"type":"fx","value":"Vibrant (6%)"}],"exifdata":[{"title":"Camera","value":"TrueHDR
+        app on Apple iDevice iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/630
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Off,
+        Did not fire","style":""},{"title":"Metering Mode","value":"Spot","style":""},{"title":"Light
+        Value","value":"12.8","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.3da38aa3e2781d961e9e77e0b3dcc4d2.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.3da38aa3e2781d961e9e77e0b3dcc4d2.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.3da38aa3e2781d961e9e77e0b3dcc4d2.jpg","fullwidth":1200,"fullheight":900,"location":"-54.84223233075332
+        -68.37197089574148","recipe":[{"type":"fx","value":"HDR (37%)"}],"exifdata":[{"title":"Camera","value":"Apple
+        iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/1808
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Off,
+        Did not fire","style":""},{"title":"Metering Mode","value":"Spot","style":""},{"title":"Light
+        Value","value":"14.3","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.8fd769e6e8419150ecb5638633a9234f.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.8fd769e6e8419150ecb5638633a9234f.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.8fd769e6e8419150ecb5638633a9234f.jpg","fullwidth":1025,"fullheight":1200,"location":"-54.84215098438304
+        -68.37183728820493","recipe":[{"type":"scenemode","value":"<a href=\"\/clarity\"
+        class=\"claritylink\">Clarity<\/a>"},{"type":"crop","value":"Freeform"},{"type":"fx","value":"Depth
+        of Field"}],"exifdata":[{"title":"Camera","value":"Apple iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/1427
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Off,
+        Did not fire","style":""},{"title":"Metering Mode","value":"Spot","style":""},{"title":"Light
+        Value","value":"14.0","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.f61200f96b2a147fd401d13c158426b0.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.f61200f96b2a147fd401d13c158426b0.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.f61200f96b2a147fd401d13c158426b0.jpg","fullwidth":1200,"fullheight":900,"location":"-54.8419294087727
+        -68.37091469212284","recipe":[{"type":"scenemode","value":"Auto"}],"exifdata":[{"title":"Camera","value":"Apple
+        iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/3876
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Off,
+        Did not fire","style":""},{"title":"Metering Mode","value":"Spot","style":""},{"title":"Light
+        Value","value":"15.4","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.37332622e1621f057af02fd347c44c55.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.37332622e1621f057af02fd347c44c55.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.37332622e1621f057af02fd347c44c55.jpg","fullwidth":1200,"fullheight":1200,"location":"-54.84198045456301
+        -68.37108216254821","recipe":[{"type":"crop","value":"Square"},{"type":"fx","value":"Cross
+        Process (38%)"}],"exifdata":[{"title":"Camera","value":"Apple iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/1595
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Off,
+        Did not fire","style":""},{"title":"Metering Mode","value":"Spot","style":""},{"title":"Light
+        Value","value":"14.2","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.c36e47c50f296139f608d95a5d5ddf0e.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.c36e47c50f296139f608d95a5d5ddf0e.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.c36e47c50f296139f608d95a5d5ddf0e.jpg","fullwidth":1200,"fullheight":900,"location":"-54.84197944873463
+        -68.37114117114653","recipe":[{"type":"fx","value":"HDR (10%)"}],"exifdata":[{"title":"Camera","value":"Apple
+        iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/3623
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Off,
+        Did not fire","style":""},{"title":"Metering Mode","value":"Multi-segment","style":""},{"title":"Light
+        Value","value":"15.3","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.b7277353ec2cbce08844791add8814df.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.b7277353ec2cbce08844791add8814df.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.b7277353ec2cbce08844791add8814df.jpg","fullwidth":1200,"fullheight":900,"location":"-54.84195463830125
+        -68.37109481922199","recipe":[{"type":"scenemode","value":"Auto"}],"exifdata":[{"title":"Camera","value":"Apple
+        iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/1595
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Off,
+        Did not fire","style":""},{"title":"Metering Mode","value":"Multi-segment","style":""},{"title":"Light
+        Value","value":"14.2","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.86703a90aba3e53dc5ce5281cd8f6fc4.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.86703a90aba3e53dc5ce5281cd8f6fc4.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.86703a90aba3e53dc5ce5281cd8f6fc4.jpg","fullwidth":1200,"fullheight":861,"location":"-54.84197441959273
+        -68.37113538763334","recipe":[{"type":"crop","value":"Freeform"},{"type":"fx","value":"HDR
+        (28%)"}],"exifdata":[{"title":"Camera","value":"Apple iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/2262
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Off,
+        Did not fire","style":""},{"title":"Metering Mode","value":"Spot","style":""},{"title":"Light
+        Value","value":"14.7","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.8b8507bc2205cf2c2ccc3ccdee4b47ce.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.8b8507bc2205cf2c2ccc3ccdee4b47ce.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.8b8507bc2205cf2c2ccc3ccdee4b47ce.jpg","fullwidth":1200,"fullheight":854,"location":"-54.83541042549054
+        -68.36357164203037","recipe":[{"type":"scenemode","value":"Auto"},{"type":"crop","value":"Freeform"},{"type":"fx","value":"HDR
+        (15%)"}],"exifdata":[{"title":"Camera","value":"Apple iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/2710
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Off,
+        Did not fire","style":""},{"title":"Metering Mode","value":"Spot","style":""},{"title":"Light
+        Value","value":"14.9","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.c39acda4acf6b8d7008f5fab67f95f3a.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.c39acda4acf6b8d7008f5fab67f95f3a.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.c39acda4acf6b8d7008f5fab67f95f3a.jpg","fullwidth":900,"fullheight":1200,"location":"-54.83370215171467
+        -68.36464804603565","recipe":[{"type":"fx","value":"Redscale (47%)"}],"exifdata":[{"title":"Camera","value":"Apple
+        iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/382
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Off,
+        Did not fire","style":""},{"title":"Metering Mode","value":"Spot","style":""},{"title":"Light
+        Value","value":"12.1","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.804c7bff6b0eda0a858cd56f06596d44.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.804c7bff6b0eda0a858cd56f06596d44.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.804c7bff6b0eda0a858cd56f06596d44.jpg","fullwidth":1200,"fullheight":900,"location":"-54.83370764186125
+        -68.36452474824","recipe":[{"type":"scenemode","value":"<a href=\"\/clarity\"
+        class=\"claritylink\">Clarity<\/a>"},{"type":"fx","value":"Vibrant (26%)"}],"exifdata":[{"title":"Camera","value":"Apple
+        iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/2088
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Off,
+        Did not fire","style":""},{"title":"Metering Mode","value":"Spot","style":""},{"title":"Light
+        Value","value":"14.6","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.aa2dde1174419108096317bbad0ba89a.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.aa2dde1174419108096317bbad0ba89a.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.aa2dde1174419108096317bbad0ba89a.jpg","fullwidth":1200,"fullheight":1200,"location":"-54.83392619998644
+        -68.3644922264557","recipe":[{"type":"crop","value":"Square"},{"type":"fx","value":"Vibrant
+        (51%)"}],"exifdata":[{"title":"Camera","value":"Apple iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/577
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"4.1 mm","style":""},{"title":"ISO Speed","value":"50","style":""},{"title":"Flash","value":"Off,
+        Did not fire","style":""},{"title":"Metering Mode","value":"Spot","style":""},{"title":"Light
+        Value","value":"12.7","style":""}]},{"800px":"http:\/\/pics.campl.us\/f\/1\/13199.43f3800715b0aa1049716f6623189ec0.jpg","120px":"http:\/\/pics.campl.us\/t\/1\/13199.43f3800715b0aa1049716f6623189ec0.jpg","480px":"http:\/\/pics.campl.us\/iphone\/1\/13199.43f3800715b0aa1049716f6623189ec0.jpg","fullwidth":1200,"fullheight":900,"location":"-54.84194709458839
+        -68.37259786209871","recipe":[{"type":"fx","value":"Cross Process (17%)"}],"exifdata":[{"title":"Camera","value":"Apple
+        iPhone 5","style":"main"},{"title":"Software","value":"Camera+","style":"main"},{"title":"Exposure","value":"1\/320
+        sec","style":"main"},{"title":"Aperture","value":"f\/2.4","style":"main"},{"title":"Focal
+        Length","value":"2.2 mm","style":""},{"title":"ISO Speed","value":"32","style":""},{"title":"Flash","value":"No
+        flash function","style":""},{"title":"Metering Mode","value":"Spot","style":""},{"title":"Light
+        Value","value":"12.5","style":""}]}],"comments":[{"author":"Robert-Paul Jansen","avatar":"http:\/\/a0.twimg.com\/profile_images\/2645406774\/6e6ec783318d0ba266ccdc467f0c7010_normal.jpeg","url":"http:\/\/twitter.com\/robertpaul","text":"Looks
+        like a great place to photograph. Have fun!"},{"author":"Tiffy Huges","avatar":"http:\/\/gravatar.com\/avatar\/ec62818b1347e36a97c04fd083d531af?s=50&d=http%3A%2F%2Fcampl.us%2Fstatic%2Fshare_img%2Fdefaultavatar.png","url":"#","text":"beautiful
+        place you went.. and have fun photos from Tiffy"},{"author":"francisco","avatar":"http:\/\/gravatar.com\/avatar\/02dedee4546887f3ef7ef6ece5ed6be3?s=50&d=http%3A%2F%2Fcampl.us%2Fstatic%2Fshare_img%2Fdefaultavatar.png","url":"#","text":"you
+        go through chile??"},{"author":"ionica","avatar":"http:\/\/a0.twimg.com\/profile_images\/1723661270\/i0n1ca_normal.png","url":"http:\/\/twitter.com\/i0n1ca","text":"Very
+        nice pictures :)"},{"author":"bemap iphoneography","avatar":"http:\/\/a0.twimg.com\/profile_images\/2649277254\/8b41a8d30a0aefff741f1f754ee9a1f6_normal.jpeg","url":"http:\/\/twitter.com\/bemapsatthu","text":"awesome
+        :)"}]}'
+    http_version: 
+  recorded_at: Mon, 25 Feb 2013 22:12:47 GMT
+recorded_with: VCR 2.4.0

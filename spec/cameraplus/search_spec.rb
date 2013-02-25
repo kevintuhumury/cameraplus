@@ -2,9 +2,7 @@ require "spec_helper"
 
 describe Cameraplus::Search do
 
-  context "by username" do
-
-    use_vcr_cassette :search
+  context "by username", :vcr do
 
     let(:results) { Cameraplus::Search.find username: "mostlylisa" }
 

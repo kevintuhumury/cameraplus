@@ -1,8 +1,6 @@
 require "spec_helper"
 
-describe Cameraplus::API::User do
-
-  use_vcr_cassette :user
+describe Cameraplus::API::User, :vcr do
 
   it "should receive a hash" do
     response = Cameraplus::API::User.find "mostlylisa"

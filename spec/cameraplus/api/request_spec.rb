@@ -12,9 +12,7 @@ describe Cameraplus::API::Request do
 
   end
 
-  context "connecting with the api" do
-
-    use_vcr_cassette :api_request_valid
+  context "connecting with the api", :vcr do
 
     let(:response) { subject.call "/user/mostlylisa:pages" }
 
@@ -32,9 +30,7 @@ describe Cameraplus::API::Request do
 
   end
 
-  context "connecting with an invalid api call" do
-
-    use_vcr_cassette :api_request_invalid
+  context "connecting with an invalid api call", :vcr do
 
     let(:response) { subject.call "/non-existing-page" }
 

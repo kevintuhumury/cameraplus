@@ -12,34 +12,34 @@ http_interactions:
       code: 404
       message: Not Found
     headers:
-      Cache-Control:
-      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-      Content-Type:
-      - text/html; charset=UTF-8
       Date:
-      - Sun, 25 Mar 2012 16:47:40 GMT
-      Expires:
-      - Thu, 19 Nov 1981 08:52:00 GMT
-      Pragma:
-      - no-cache
+      - Mon, 25 Feb 2013 22:12:40 GMT
       Server:
-      - Apache/2.2.21 (Amazon)
-      Set-Cookie:
-      - PHPSESSID=7v53q5k9m16h8qrghjdp5mj1g3; expires=Fri, 21-Sep-2012 16:47:40 GMT;
-        path=/; domain=.campl.us
-      - PHPSESSID=7v53q5k9m16h8qrghjdp5mj1g3; expires=Fri, 21-Sep-2012 16:47:40 GMT;
-        path=/; domain=.campl.us
+      - Apache/2.2.22 (Amazon)
       X-Powered-By:
       - PHP/5.3.10
+      Set-Cookie:
+      - PHPSESSID=k6glq4ildkpmst4f8d47gqf712; expires=Sat, 24-Aug-2013 22:12:40 GMT;
+        path=/; domain=.campl.us
+      - PHPSESSID=k6glq4ildkpmst4f8d47gqf712; expires=Sat, 24-Aug-2013 22:12:40 GMT;
+        path=/; domain=.campl.us
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
       Content-Length:
-      - '956'
+      - '986'
       Connection:
-      - keep-alive
+      - close
+      Content-Type:
+      - text/html; charset=UTF-8
     body:
       encoding: US-ASCII
       string: ! "<!DOCTYPE html> \n<html lang=\"en\"> \n<head> \n\t<meta charset=\"UTF-8\"
         /> \n\t<title>Camera+ ~ Error</title> \n\t<meta name = \"viewport\" content
-        = \"width = device-width\"> \n\t<style type=\"text/css\">@import url('/static/error.css?14');
+        = \"width = device-width\"> \n\t<style type=\"text/css\">@import url('http://camplus.s3.amazonaws.com/share/error.css?14');
         </style> \n<head> \n<body class=\"error\"> \n\t<div class=\"container\"> \n\t\t<a
         href=\"/\"><div class=\"findOutMore\"></div><h1>Camera+</h1></a> \n \n\t\t<div
         class=\"box1\"> \n\t\t<div class=\"box2\"> \n\t\t<div id=\"contentArea\">
@@ -52,5 +52,5 @@ http_interactions:
         \n\ttry {\n\t\treinvigorate.track(\"995iv-68r19xp73x\");\n\t} catch(err) {}\n\t</script>
         \n</body> \n</html> \n"
     http_version: 
-  recorded_at: Sun, 25 Mar 2012 16:47:40 GMT
-recorded_with: VCR 2.0.0
+  recorded_at: Mon, 25 Feb 2013 22:12:40 GMT
+recorded_with: VCR 2.4.0

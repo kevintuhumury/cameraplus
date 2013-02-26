@@ -1,10 +1,6 @@
 module Cameraplus
   module API
-    class User
-
-      def self.find(identifier, options = {})
-        Request.call uri(identifier), options
-      end
+    class User < Base
 
       private
 

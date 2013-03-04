@@ -1,6 +1,7 @@
 # Cameraplus (Camera+)
 
 [![Build Status](https://secure.travis-ci.org/kevintuhumury/cameraplus.png)](http://travis-ci.org/kevintuhumury/cameraplus)
+[![Dependency Status](https://gemnasium.com/kevintuhumury/cameraplus.png)](https://gemnasium.com/kevintuhumury/cameraplus)
 [![Code Climate](https://codeclimate.com/github/kevintuhumury/cameraplus.png)](https://codeclimate.com/github/kevintuhumury/cameraplus)
 [![Coverage Status](https://coveralls.io/repos/kevintuhumury/cameraplus/badge.png?branch=master)](https://coveralls.io/r/kevintuhumury/cameraplus)
 

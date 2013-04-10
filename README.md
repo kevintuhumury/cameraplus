@@ -1,5 +1,6 @@
 # Cameraplus (Camera+)
 
+[![Gem Version](https://badge.fury.io/rb/cameraplus.png)](http://badge.fury.io/rb/cameraplus)
 [![Build Status](https://secure.travis-ci.org/kevintuhumury/cameraplus.png)](http://travis-ci.org/kevintuhumury/cameraplus)
 [![Dependency Status](https://gemnasium.com/kevintuhumury/cameraplus.png)](https://gemnasium.com/kevintuhumury/cameraplus)
 [![Code Climate](https://codeclimate.com/github/kevintuhumury/cameraplus.png)](https://codeclimate.com/github/kevintuhumury/cameraplus)
